@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="log">
+            JQUERY-图片滚动预览
+        </div>
+        <ul class="nav-item">
+            <li>PAGE</li>
+            <li>HELLO</li>
+            <li>HELP</li>
+        </ul>
+        <ul class="info">
+            <li>SEARCH</li>
+            <li>MY</li>
+        </ul>
+    </div>
+    <div class="des img-box">
+        <!-- JQUERY 图片滚动预览 -->
+        <img src="https://picsum.photos/id/1003/1920/1080" alt="">
+    </div>
+    <section class="content">
+        <div class="left">
+            <ul>
+                <li class="td">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="搜索">
+                        </li>
+                        <li class="active">全部</li>
+                        <li>热门</li>
+                        <li>所有</li>
+                    </ul>
+                </li>
+                <li class="bd">
+                    <ul>
+                        <li>情景</li>
+                        <li>企业</li>
+                        <li>小程序</li>
+                        <li>个人博客</li>
+                        <li>落地页</li>
+                        <li>微页</li>
+                        <li>表单</li>
+                        <li>其它</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li>
+                    <div class="hd img-box">
+                        <img src="https://picsum.photos/id/1011/680/1000" alt="">
+                    </div>
+                    <div class="td">
+                        <div>
+                            <h3>HUANGSE</h3>
+                        </div>
+                        <div>
+                            <span>HOT</span>
+                            <div>
+                                <button class="gray-btn">选用</button>
+                                <button class="white-btn">预览</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hd img-box">
+                        <img src="https://picsum.photos/id/1012/680/1000" alt="">
+                    </div>
+                    <div class="td">
+                        <div>
+                            <h3>LANSE</h3>
+                        </div>
+                        <div>
+                            <span>HOT</span>
+                            <div>
+                                <button class="gray-btn">选用</button>
+                                <button class="white-btn">预览</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hd img-box">
+                        <img src="https://picsum.photos/id/1023/680/1000" alt="">
+                    </div>
+                    <div class="td">
+                        <div>
+                            <h3>CHENGSE</h3>
+                        </div>
+                        <div>
+                            <span>HOT</span>
+                            <div>
+                                <button class="gray-btn">选用</button>
+                                <button class="white-btn">预览</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hd img-box">
+                        <img src="https://picsum.photos/id/1018/680/1000" alt="">
+                    </div>
+                    <div class="td">
+                        <div>
+                            <h3>TIANLANSE</h3>
+                        </div>
+                        <div>
+                            <span>HOT</span>
+                            <div>
+                                <button class="gray-btn">选用</button>
+                                <button class="white-btn">预览</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hd img-box">
+                        <img src="./img/4.jpg" alt="">
+                    </div>
+                    <div class="td">
+                        <div>
+                            <h3>SHUISE</h3>
+                        </div>
+                        <div>
+                            <span>HOT</span>
+                            <div>
+                                <button class="gray-btn">选用</button>
+                                <button class="white-btn">预览</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hd img-box">
+                        <img src="https://picsum.photos/id/1015/680/1000" alt="">
+                    </div>
+                    <div class="td">
+                        <div>
+                            <h3>HONGSE</h3>
+                        </div>
+                        <div>
+                            <span>HOT</span>
+                            <div>
+                                <button class="gray-btn">选用</button>
+                                <button class="white-btn">预览</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        $(function () {
+            // PicScroll
+            new PicScroll('.img-box', { speedUp: 800, speedDown: 500 })
+        });
+    </script>
+</body>
+
+</html>
